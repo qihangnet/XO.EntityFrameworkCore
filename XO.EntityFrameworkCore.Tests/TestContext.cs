@@ -38,7 +38,7 @@ internal sealed class TestContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder
-            .UseNpgsql("Host=localhost;Username=postgres;Password=password;Database=XO.EntityFrameworkCore.Tests;Include Error Detail=true")
+            .UseNpgsql("Host=localhost;Username=postgres;Password=635241;Database=XO.EntityFrameworkCore.Tests;Include Error Detail=true")
             .UseNpgsqlJsonSerializerOptions()
             ;
 
